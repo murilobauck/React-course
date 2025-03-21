@@ -1,7 +1,7 @@
-const Cabecalho = () => {
+const Cabecalho = (props) => {
   return (
     <div>
-      Cabecalho
+      Bem-vindo, {props.nomeUsuario}!
     </div>
   );
 };
