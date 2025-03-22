@@ -4,7 +4,7 @@ const FormCriarTarefa = () => {
   return (
     <form>
       <CampoTexto />
-      <Botao texto="+"/>
+      {/* DANDO ERRO NO TIPO!! */}<Botao texto="+" tipo={TIPO_BOTAO.SECUNDARIO}/>
     </form>
   )
 };
