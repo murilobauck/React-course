@@ -1,4 +1,5 @@
 import { Cabecalho, Conteudo, Footer, } from "./components";
+import { Inicial } from "./pages";
 
 import "./App.css";
 
@@ -7,8 +8,7 @@ const App = () => {
     <>
       <Cabecalho nomeUsuario="Murilo"/>
       <Conteudo>
-        <h1>Titulo</h1>
-        <p>Texto</p>
+        <Inicial />
       </Conteudo>
       <Footer criador="Murilo"/>
     </>
