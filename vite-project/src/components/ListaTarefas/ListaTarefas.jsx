@@ -1,22 +1,13 @@
-import { Botao, TIPO_BOTAO } from '../Botao';
+import { ListaTarefasItem } from './ListaTarefasItem';
 
 import style from './ListaTarefas.module.css';
 
 const ListaTarefas = () => {
   return (
     <ul className={style.ListaTarefas}>
-      <li>
-        item 1
-        <Botao texto="-" tipo={TIPO_BOTAO.SECUNDARIO} />
-      </li>
-      <li>
-        item 2
-        <Botao texto="-" tipo={TIPO_BOTAO.SECUNDARIO} />
-      </li>
-      <li>
-        item 3
-        <Botao texto="-" tipo={TIPO_BOTAO.SECUNDARIO} />
-      </li>
+      <ListaTarefasItem nome="Tarefa 1" />
+      <ListaTarefasItem nome="Tarefa 2" />
+      <ListaTarefasItem nome="Tarefa 3" />
     </ul>
   )
 };
